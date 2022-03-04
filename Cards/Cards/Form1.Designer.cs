@@ -48,28 +48,30 @@
             "Ace of Spades",
             "10 of Hearts",
             "King of Clubs"});
-            this.cardListBox.Location = new System.Drawing.Point(114, 153);
+            this.cardListBox.Location = new System.Drawing.Point(112, 154);
             this.cardListBox.Name = "cardListBox";
             this.cardListBox.Size = new System.Drawing.Size(85, 56);
             this.cardListBox.TabIndex = 3;
             // 
             // showCardButton
             // 
-            this.showCardButton.Location = new System.Drawing.Point(78, 215);
+            this.showCardButton.Location = new System.Drawing.Point(76, 216);
             this.showCardButton.Name = "showCardButton";
             this.showCardButton.Size = new System.Drawing.Size(75, 23);
             this.showCardButton.TabIndex = 4;
             this.showCardButton.Text = "Show Card";
             this.showCardButton.UseVisualStyleBackColor = true;
+            this.showCardButton.Click += new System.EventHandler(this.showCardButton_Click);
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(159, 215);
+            this.exitButton.Location = new System.Drawing.Point(157, 216);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(75, 23);
             this.exitButton.TabIndex = 5;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // cardPanel
             // 
