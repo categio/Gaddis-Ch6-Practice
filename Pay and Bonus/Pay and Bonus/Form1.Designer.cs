@@ -46,6 +46,7 @@
             this.exitButton.TabIndex = 15;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // calculateButton
             // 
@@ -55,6 +56,7 @@
             this.calculateButton.TabIndex = 14;
             this.calculateButton.Text = "Calculate Contribution";
             this.calculateButton.UseVisualStyleBackColor = true;
+            this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
             // contributionLabel
             // 
